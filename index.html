@@ -1,0 +1,267 @@
+<html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GAME ZONE | دنیای بازی</title>
+
+    <style>
+        body {
+            background-color: #10101c;
+            color: white;
+            font-family: Tahoma, sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #1b1930;
+            padding: 20px;
+        }
+
+        header h1 {
+            color: #38bdf8;
+            font-size: 38px;
+        }
+
+        nav {
+            background-color: #292343;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 30px 15px;
+        }
+
+        .intro {
+            background-color: #19152b;
+            padding: 35px 15px;
+        }
+
+        .game {
+            display: inline-block;
+            background-color: #24213a;
+            width: 250px;
+            margin: 12px;
+            padding: 15px;
+            border-radius: 15px;
+            vertical-align: top;
+        }
+
+        .game img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .game h3 {
+            color: #38bdf8;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 22px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .button:hover {
+            background-color: #1d4ed8;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 650px;
+        }
+
+        th, td {
+            border: 1px solid #38bdf8;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #1d4ed8;
+        }
+
+        footer {
+            background-color: #1b1930;
+            padding: 20px;
+            color: #bbbbcc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- سربرگ سایت -->
+    <header>
+        <h1>GAME ZONE</h1>
+        <p>به دنیای هیجان و بازی خوش آمدید!</p>
+    </header>
+
+    <!-- منوی سایت -->
+    <nav>
+        <a href="#home">صفحه اصلی</a>
+        <a href="#games">بازی‌ها</a>
+        <a href="#ranking">جدول امتیازات</a>
+        <a href="#about">درباره ما</a>
+    </nav>
+
+    <!-- صفحه اصلی -->
+    <section class="intro" id="home">
+        <h2>دنیای بازی‌های کامپیوتری</h2>
+
+        <p>
+            اینجا با بازی‌های جذاب و محبوب دنیای گیم آشنا می‌شویم.
+        </p>
+
+        <a class="button" href="#games">
+            مشاهده بازی‌ها
+        </a>
+    </section>
+
+    <!-- معرفی بازی‌ها -->
+    <section id="games">
+        <h2>بازی‌های پیشنهادی</h2>
+
+        <div class="game">
+            <img
+                src="pubg.jpg.jpg"
+                alt="تصویر بازی پابجی">
+
+            <h3>PUBG</h3>
+
+            <p>یک بازی هیجان‌انگیز در سبک بتل رویال.</p>
+
+            <a href="https://www.pubg.com/"
+               target="_blank" rel="noopener noreferrer">
+                سایت رسمی بازی
+            </a>
+        </div>
+
+        <div class="game">
+            <img
+                src="gta.jpg.jpg"
+                alt="تصویر بازی جی تی ای">
+
+            <h3>GTA V</h3>
+
+            <p>یک بازی جهان‌باز با دنیایی بزرگ و آزاد.</p>
+
+            <a href="https://www.rockstargames.com/"
+               target="_blank" rel="noopener noreferrer">
+                سایت راک‌استار
+            </a>
+        </div>
+
+        <div class="game">
+            <img
+                src="minecraft.jpg.jpg"
+                alt="تصویر بازی ماینکرفت">
+
+            <h3>Minecraft</h3>
+
+            <p>ساختن و ماجراجویی در دنیایی بلوکی.</p>
+            <a href="https://www.minecraft.net/"
+               target="_blank" rel="noopener noreferrer">
+                سایت رسمی بازی
+            </a>
+        </div>
+
+        <div class="game">
+            <img
+                src="cs.jpg.jpg"
+                alt="تصویر بازی کانتر استرایک">
+
+            <h3>Counter-Strike</h3>
+
+            <p>یک بازی تیراندازی رقابتی و تیمی.</p>
+
+            <a href="https://www.counter-strike.net/"
+               target="_blank" rel="noopener noreferrer">
+                سایت بازی
+            </a>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- جدول امتیازات -->
+    <section id="ranking">
+        <h2>جدول امتیازات بازی‌ها</h2>
+
+        <table>
+            <tr>
+                <th>نام بازی</th>
+                <th>سبک بازی</th>
+                <th>امتیاز</th>
+            </tr>
+
+            <tr>
+                <td>PUBG</td>
+                <td>بتل رویال</td>
+                <td>۹ از ۱۰</td>
+            </tr>
+
+            <tr>
+                <td>GTA V</td>
+                <td>جهان‌باز</td>
+                <td>۹ از ۱۰</td>
+            </tr>
+
+            <tr>
+                <td>Minecraft</td>
+                <td>ماجراجویی</td>
+                <td>۸ از ۱۰</td>
+            </tr>
+
+            <tr>
+                <td>Counter-Strike</td>
+                <td>تیراندازی</td>
+                <td>۹ از ۱۰</td>
+            </tr>
+        </table>
+
+        <p>امتیازهای این جدول فرضی هستند.</p>
+    </section>
+
+    <hr>
+
+    <!-- درباره ما -->
+    <section id="about">
+        <h2>درباره GAME ZONE</h2>
+
+        <p>
+            این سایت یک پروژه آموزشی برای یادگیری HTML و CSS است.
+        </p>
+
+        <p>
+            هدف ما آشنایی با بازی‌های کامپیوتری و طراحی سایت است.
+        </p>
+    </section>
+
+    <!-- پایین سایت -->
+    <footer>
+        <p>ساخته شده با علاقه به برنامه‌نویسی</p>
+        <p>GAME ZONE - 2026</p>
+    </footer>
+
+</body>
+</html>
